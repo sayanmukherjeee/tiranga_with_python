@@ -1,0 +1,82 @@
+[
+    {
+        "label": "color",
+        "importPath": "turtle",
+        "description": "turtle",
+        "isExtraImport": true,
+        "detail": "turtle",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.patches",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.patches",
+        "description": "matplotlib.patches",
+        "detail": "matplotlib.patches",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "NATIONAL_FLAG",
+        "description": "NATIONAL_FLAG",
+        "peekOfCode": "a = patch.Rectangle((0,1),width=12, height=2, facecolor='green', edgecolor='grey')\nb = patch.Rectangle((0,3),width=12, height=2, facecolor='white', edgecolor='grey')\nc = patch.Rectangle((0,5),width=12, height=2, facecolor='#FF6103', edgecolor='grey')\nm,n = py.subplots()\nn.add_patch(a)\nn.add_patch(b)\nn.add_patch(c)\n#AshokeChandra circle\nradius=0.8\npy.plot(6,4, marker = 'o', markerfacecolor = '#000088ff', markersize = 9.5)",
+        "detail": "NATIONAL_FLAG",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "NATIONAL_FLAG",
+        "description": "NATIONAL_FLAG",
+        "peekOfCode": "b = patch.Rectangle((0,3),width=12, height=2, facecolor='white', edgecolor='grey')\nc = patch.Rectangle((0,5),width=12, height=2, facecolor='#FF6103', edgecolor='grey')\nm,n = py.subplots()\nn.add_patch(a)\nn.add_patch(b)\nn.add_patch(c)\n#AshokeChandra circle\nradius=0.8\npy.plot(6,4, marker = 'o', markerfacecolor = '#000088ff', markersize = 9.5)\nchakra = py.Circle((6,4), radius,color = '#000088ff', fill=False, linewidth=7)",
+        "detail": "NATIONAL_FLAG",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "NATIONAL_FLAG",
+        "description": "NATIONAL_FLAG",
+        "peekOfCode": "c = patch.Rectangle((0,5),width=12, height=2, facecolor='#FF6103', edgecolor='grey')\nm,n = py.subplots()\nn.add_patch(a)\nn.add_patch(b)\nn.add_patch(c)\n#AshokeChandra circle\nradius=0.8\npy.plot(6,4, marker = 'o', markerfacecolor = '#000088ff', markersize = 9.5)\nchakra = py.Circle((6,4), radius,color = '#000088ff', fill=False, linewidth=7)\nn.add_artist(chakra)",
+        "detail": "NATIONAL_FLAG",
+        "documentation": {}
+    },
+    {
+        "label": "m,n",
+        "kind": 5,
+        "importPath": "NATIONAL_FLAG",
+        "description": "NATIONAL_FLAG",
+        "peekOfCode": "m,n = py.subplots()\nn.add_patch(a)\nn.add_patch(b)\nn.add_patch(c)\n#AshokeChandra circle\nradius=0.8\npy.plot(6,4, marker = 'o', markerfacecolor = '#000088ff', markersize = 9.5)\nchakra = py.Circle((6,4), radius,color = '#000088ff', fill=False, linewidth=7)\nn.add_artist(chakra)\n#24 spokes in AshokChakra",
+        "detail": "NATIONAL_FLAG",
+        "documentation": {}
+    },
+    {
+        "label": "chakra",
+        "kind": 5,
+        "importPath": "NATIONAL_FLAG",
+        "description": "NATIONAL_FLAG",
+        "peekOfCode": "chakra = py.Circle((6,4), radius,color = '#000088ff', fill=False, linewidth=7)\nn.add_artist(chakra)\n#24 spokes in AshokChakra\nfor i in range(0,24):\n    p = 6 + radius/2 * np.cos(np.pi*i/12 + np.pi/48)\n    q = 6 + radius/2 * np.cos(np.pi*i/12 + np.pi/48)\n    r = 4 + radius/2 * np.cos(np.pi*i/12 + np.pi/48)\n    s = 4 + radius/2 * np.cos(np.pi*i/12 + np.pi/48)\n    t = 6 + radius * np.cos(np.pi*i/12)\n    u = 4 + radius * np.sin(np.pi*i/12)",
+        "detail": "NATIONAL_FLAG",
+        "documentation": {}
+    }
+]
